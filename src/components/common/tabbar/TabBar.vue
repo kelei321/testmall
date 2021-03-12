@@ -13,6 +13,7 @@ export default {
 <style scoped>
   .tab-bar {
     /* 本身的样式 */
+    display: flex;
     background-color: #f6f6f6;
     height: 49px;
     border-top: 1px solid #eee;
@@ -24,8 +25,5 @@ export default {
     right: 0;
     bottom: 0;
 
-    /* 利用flex进行布局 */
-    display: flex;
-    text-align: center;
   }
 </style>

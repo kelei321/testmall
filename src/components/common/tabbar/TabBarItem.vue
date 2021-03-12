@@ -35,6 +35,9 @@ export default {
 <style scoped>
 .tab-bar-item {
   flex: 1;
+  text-align: center;
+  height: 49px;
+  font-size: 14px;
 }
 
 .item-icon img, .item-active-icon img {
